@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="catalog-container">
+      <section class="catalog-search">
+        <form action="" class="catalog-search-form cinema-js-search-form">
+          <input
+            type="text"
+            id="catalog-input"
+            name="query"
+            class="catalog-search-input"
+            placeholder="Search"
+          />
+          <button type="button" class="catalog-cross-delete-btn catalog-cross-delete-btn-hide" >X
+            <svg class="catalog-icon-deletesearch" width="20" height="20">
+                <use src="./image/close-outline.svg"></use>
+            </svg>
+          </button>
+          <button type="submit" class="catalog-search-btn">
+            <img src="./image/search 3.svg" class="catalog-search-icon-in-image" alt="" width="18" height="18">
+            <!-- <svg href="./image/Vector.svg" stroke="black" fill="white" class="catalog-search-icon" x="10" y="10" width="18" height="18">
+              <use ></use>
+            </svg> -->
+          </button>
+        </form>
+        <ul class="catalog-gallery-card catalog-js-gallery">here will be a list
+            <li class="list">
+                <img src="./image/Rectangle 38.jpg" alt="" width="280" height="406">
+            </li> </ul>
+        <!-- <img src="./image/search 3.svg" alt=""> -->
+        <svg href="./image/Vector.svg"class="catalog-search-icon" x="10" y="10" width="18" height="18">
+            <use ></use>
+          </svg>
+        <div
+          id="catalog-tui-pagination-container"
+          class="catalog-tui-pagination"
+        >here will be a pagination</div>
+      </section>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
